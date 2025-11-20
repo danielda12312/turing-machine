@@ -19,7 +19,7 @@ I enter a while loop as long as state != "HALT" and inside that while loop I ent
 
 case 1 - "q0" : as long as the state I am in is "q0" and the symbol is '0' I move right on the tape (increase head by 1)
 then I break out of the switch and get back into the while loop while still in state "q0" repeat that until I reach
-the separator in the else-if statement which is '1', if I reached that symbol replace it with '_' and set state to "HALT"
+the separator in the else-if statement which is '1', if I reached that symbol I replace it with '_' and set state to "HALT"
 
 in a separate function name getResult() I turn tape to a new String object without all the blank chars '_'
 (including the separator that we changed to '_') and get its length into a variable sum with length() and return sum.

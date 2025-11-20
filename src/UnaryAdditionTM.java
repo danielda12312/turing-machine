@@ -3,6 +3,9 @@ public class UnaryAdditionTM {
     private int head;
     private String state = "q0";
 
+
+    //TODO: Try to simulate a turing machine that preforms binary addition.
+
     public UnaryAdditionTM(String input)
     {
         this.tape = (input + "_").toCharArray();
